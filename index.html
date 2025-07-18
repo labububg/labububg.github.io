@@ -1,11 +1,68 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bg">
 <head>
-  <meta charset="UTF-8">
-  <title>Labubu BG</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labubu.bg - Начало</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
+        header { background-color: #333; color: white; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; }
+        header h1 { margin: 0; }
+        nav a { color: white; margin-left: 15px; text-decoration: none; font-weight: bold; }
+        .banner { background: url('https://labububg.github.io/assets/banner.jpg') no-repeat center center; background-size: cover; height: 250px; }
+        .products { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; gap: 20px; }
+        .product { background: white; border: 1px solid #ccc; border-radius: 5px; width: 220px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center; }
+        .product img { width: 100%; border-radius: 5px; }
+        .product h3 { margin: 10px 0 5px; }
+        .product p { margin: 0; font-weight: bold; color: green; }
+        footer { background-color: #333; color: white; padding: 15px; text-align: center; font-size: 14px; margin-top: 30px; }
+        .contact-buttons { margin-top: 15px; }
+        .contact-buttons a { display: inline-block; margin: 5px 10px; padding: 8px 16px; background-color: #25d366; color: white; text-decoration: none; border-radius: 4px; }
+        .contact-buttons a.email { background-color: #0073e6; }
+        .language-switch { position: absolute; top: 10px; right: 10px; }
+    </style>
 </head>
 <body>
-  <h1>Hoş Geldiniz!</h1>
-  <p>Orijinal Labubu Oyuncakları Bulgaristan'da Satışta</p>
+
+<header>
+    <h1>Labubu.bg</h1>
+    <nav>
+        <a href="#">Начало</a>
+        <a href="#">Продукти</a>
+        <a href="#">Доставка</a>
+        <a href="#">Контакт</a>
+    </nav>
+</header>
+
+<div class="banner"></div>
+
+<section class="products">
+    <div class="product">
+        <img src="https://labububg.github.io/assets/labubu1.jpg" alt="Labubu 1">
+        <h3>Labubu Плюшена Играчка</h3>
+        <p>29.99 лв./брой</p>
+    </div>
+    <div class="product">
+        <img src="https://labububg.github.io/assets/labubu2.jpg" alt="Labubu 2">
+        <h3>Labubu Есенна Колекция</h3>
+        <p>29.99 лв./брой</p>
+    </div>
+    <div class="product">
+        <img src="https://labububg.github.io/assets/labubu3.jpg" alt="Labubu 3">
+        <h3>Labubu Limited Edition</h3>
+        <p>29.99 лв./брой</p>
+    </div>
+</section>
+
+<footer>
+    <div>Свържете се с нас: labububg@hotmail.com | WhatsApp: +359 888 569 694</div>
+    <div class="contact-buttons">
+        <a href="https://wa.me/359888569694" target="_blank">Пишете ни в WhatsApp</a>
+        <a href="mailto:labububg@hotmail.com" class="email">Изпрати имейл</a>
+    </div>
+    <div>Доставяме с: Ekont и Speedy</div>
+</footer>
+
 </body>
 </html>
